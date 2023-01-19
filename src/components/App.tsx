@@ -3,7 +3,7 @@ import Hero from "./hero/Hero";
 import Information from "./information/Information";
 import Gallery from "./gallery/Gallery";
 import Blog from "./blog/Blog";
-// import Team from "./team/Team";
+import Team from "./team/Team";
 import Form from "./form/Form";
 import Footer from "./footer/Footer";
 
@@ -14,6 +14,7 @@ const App: React.FC = () => {
       <Information />
       <Gallery />
       <Blog />
+      <Team />
       <Form />
       <Footer />
     </>

@@ -5,6 +5,10 @@ import gallery4 from "../img/gallery/gallery4.jpg";
 import gallery5 from "../img/gallery/gallery5.jpg";
 import gallery6 from "../img/gallery/gallery6.jpg";
 
+import team1 from "../img/team/team1.jpg";
+import team2 from "../img/team/team2.jpg";
+import team3 from "../img/team/team3.jpg";
+
 export const galleryArr = [
   gallery1,
   gallery2,
@@ -13,3 +17,9 @@ export const galleryArr = [
   gallery5,
   gallery6,
 ];
+
+export const teamImages = {
+  team1,
+  team2,
+  team3,
+};
