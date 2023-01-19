@@ -14,7 +14,7 @@ const Blog: React.FC = () => {
           illum dolore explicabo ab dolores itaque rerum temporibus doloribus
           iste maiores deleniti?
         </p>
-        <button type="button" className={stylesInfo.button}>
+        <button type="button" className={styles.button}>
           Read Our Blog
         </button>
       </div>

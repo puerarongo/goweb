@@ -39,6 +39,21 @@
   height: 35px;
 }
 
+.svg__facebook,
+.svg__twitter,
+.svg__youTube,
+.svg__linkedIn {
+  fill: #fff;
+  cursor: pointer;
+}
+
+.svg__facebook:hover,
+.svg__twitter:hover,
+.svg__youTube:hover,
+.svg__linkedIn:hover {
+  fill: #28a745;
+}
+
 .footer__text {
   font-weight: 400;
   font-size: 16px;

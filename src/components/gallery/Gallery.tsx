@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Gallery.module.css";
+import { galleryArr } from "../../services/imgPath";
 
 const Gallery: React.FC = () => {
   return (
@@ -11,24 +12,18 @@ const Gallery: React.FC = () => {
         Architecto,sapiente!
       </p>
       <ul className={styles.gallery__list}>
-        <li className={styles.gallery__item}>
-          <img className={styles.image} src="#" alt="#" />
-        </li>
-        <li className={styles.gallery__item}>
-          <img className={styles.image} src="#" alt="#" />
-        </li>
-        <li className={styles.gallery__item}>
-          <img className={styles.image} src="#" alt="#" />
-        </li>
-        <li className={styles.gallery__item}>
-          <img className={styles.image} src="#" alt="#" />
-        </li>
-        <li className={styles.gallery__item}>
-          <img className={styles.image} src="#" alt="#" />
-        </li>
-        <li className={styles.gallery__item}>
-          <img className={styles.image} src="#" alt="#" />
-        </li>
+        {galleryArr.length > 0 &&
+          galleryArr.map((elem, index) => {
+            return (
+              <li key={index} className={styles.gallery__item}>
+                <img
+                  className={styles.image}
+                  src={elem}
+                  alt={"gallery" + index}
+                />
+              </li>
+            );
+          })}
       </ul>
     </section>
   );

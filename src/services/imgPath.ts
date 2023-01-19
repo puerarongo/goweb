@@ -1,9 +1,15 @@
-import heroSmall from "../img/hero/hero_small.jpg";
-import heroMid from "../img/hero/hero_mid.jpg";
-import heroBig from "../img/hero/hero_big.jpg";
+import gallery1 from "../img/gallery/gallery1.jpg";
+import gallery2 from "../img/gallery/gallery2.jpg";
+import gallery3 from "../img/gallery/gallery3.jpg";
+import gallery4 from "../img/gallery/gallery4.jpg";
+import gallery5 from "../img/gallery/gallery5.jpg";
+import gallery6 from "../img/gallery/gallery6.jpg";
 
-export const heroImgPath = {
-  heroSmall,
-  heroMid,
-  heroBig,
-};
+export const galleryArr = [
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+];

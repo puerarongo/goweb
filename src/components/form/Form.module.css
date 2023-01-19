@@ -52,6 +52,11 @@
   cursor: pointer;
 }
 
+.from__button:hover {
+  background-color: #2ebf4f;
+  border: 1px solid #2ebf4f;
+}
+
 @media screen and (min-width: 767px) {
   .section__form {
     display: flex;
