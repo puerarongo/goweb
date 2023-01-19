@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/goweb/static/css/main.e6c13ad2.css",
+    "main.js": "/goweb/static/js/main.10ba11e3.js",
+    "static/js/787.2d1b4dc6.chunk.js": "/goweb/static/js/787.2d1b4dc6.chunk.js",
+    "index.html": "/goweb/index.html",
+    "main.e6c13ad2.css.map": "/goweb/static/css/main.e6c13ad2.css.map",
+    "main.10ba11e3.js.map": "/goweb/static/js/main.10ba11e3.js.map",
+    "787.2d1b4dc6.chunk.js.map": "/goweb/static/js/787.2d1b4dc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.10ba11e3.js"
+  ]
+}
