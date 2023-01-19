@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/goweb/static/css/main.bc649eb2.css",
-    "main.js": "/goweb/static/js/main.62b0893f.js",
+    "main.css": "/goweb/static/css/main.8e9bbe06.css",
+    "main.js": "/goweb/static/js/main.17fe3260.js",
     "static/js/787.2d1b4dc6.chunk.js": "/goweb/static/js/787.2d1b4dc6.chunk.js",
     "static/media/hero_big.jpg": "/goweb/static/media/hero_big.da623e53232072a5c0c1.jpg",
     "static/media/hero_mid.jpg": "/goweb/static/media/hero_mid.dd736a085c58acd1cf94.jpg",
-    "static/media/twitter.svg": "/goweb/static/media/twitter.a89235706587cc4502507015ce5d5cbb.svg",
+    "static/media/gallery6.jpg": "/goweb/static/media/gallery6.92c3df9eae43facd6a41.jpg",
+    "static/media/gallery1.jpg": "/goweb/static/media/gallery1.dee2716e15c6ea9e4d46.jpg",
+    "static/media/gallery4.jpg": "/goweb/static/media/gallery4.615e3917d44494f3d3df.jpg",
+    "static/media/gallery2.jpg": "/goweb/static/media/gallery2.8a24d0a454f65717922e.jpg",
+    "static/media/twitter.svg": "/goweb/static/media/twitter.2f52081964595dac420f282cb5e5559b.svg",
     "static/media/book.svg": "/goweb/static/media/book.007b4fb0724d9c65722d16f361978ea4.svg",
-    "static/media/youTube.svg": "/goweb/static/media/youTube.311e11921b77d7fd347f330d89c36443.svg",
+    "static/media/youTube.svg": "/goweb/static/media/youTube.24de43c33eae18bd39e87d810257aaf8.svg",
     "index.html": "/goweb/index.html",
-    "static/media/linkedIn.svg": "/goweb/static/media/linkedIn.8ca1d5b3b88f85fff1a843378e2ceec4.svg",
-    "static/media/facebook.svg": "/goweb/static/media/facebook.313664592cdc2c5ae0579e6ecebdf76a.svg",
+    "static/media/linkedIn.svg": "/goweb/static/media/linkedIn.c9e7b19ec7557d13f074239012cdb070.svg",
+    "static/media/facebook.svg": "/goweb/static/media/facebook.481bf783f63a129130f37b38ce75c665.svg",
     "static/media/arrow.svg": "/goweb/static/media/arrow.c05abddbec352ed13a0dae60737ad21a.svg",
-    "main.bc649eb2.css.map": "/goweb/static/css/main.bc649eb2.css.map",
-    "main.62b0893f.js.map": "/goweb/static/js/main.62b0893f.js.map",
+    "main.8e9bbe06.css.map": "/goweb/static/css/main.8e9bbe06.css.map",
+    "main.17fe3260.js.map": "/goweb/static/js/main.17fe3260.js.map",
     "787.2d1b4dc6.chunk.js.map": "/goweb/static/js/787.2d1b4dc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc649eb2.css",
-    "static/js/main.62b0893f.js"
+    "static/css/main.8e9bbe06.css",
+    "static/js/main.17fe3260.js"
   ]
 }
