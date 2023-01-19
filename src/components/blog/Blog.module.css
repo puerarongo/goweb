@@ -1,0 +1,25 @@
+.blog {
+  display: block;
+}
+
+.container__blog {
+  padding: 48px 20px;
+  text-align: left;
+  background-color: #0284d0;
+}
+
+@media screen and (min-width: 767px) {
+  .blog {
+    display: flex;
+  }
+
+  .container__blog {
+    padding: 60px 32px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .container__blog {
+    padding: 80px 28px 90px 20px;
+  }
+}

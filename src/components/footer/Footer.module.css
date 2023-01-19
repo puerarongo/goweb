@@ -1,0 +1,60 @@
+.footer {
+  text-align: center;
+  background-color: #333333;
+  padding: 20px 0;
+}
+
+.svg__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.svg__item {
+  display: flex;
+  align-items: center;
+}
+
+.svg__item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.svg__facebook {
+  width: 35px;
+  height: 35px;
+}
+
+.svg__twitter {
+  width: 35px;
+  height: 30px;
+}
+
+.svg__youTube {
+  width: 40px;
+  height: 28px;
+}
+
+.svg__linkedIn {
+  width: 32px;
+  height: 35px;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+@media screen and (min-width: 767px) {
+  .svg__list {
+    margin-bottom: 10px;
+  }
+
+  .footer__text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+}

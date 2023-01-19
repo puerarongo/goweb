@@ -3,11 +3,9 @@ import styles from "./Information.module.css";
 
 const Information: React.FC = () => {
   return (
-    <section>
-      <div>
-        <img className={styles.image} src="#" alt="#" />
-      </div>
-      <div>
+    <section className={styles.information__container}>
+      <div className={styles.image}></div>
+      <div className={styles.container__information}>
         <h3 className={styles.subtitle}>What you are looking for</h3>
         <h2 className={styles.title}>We provide bespoke solutions</h2>
         <p className={styles.text}>

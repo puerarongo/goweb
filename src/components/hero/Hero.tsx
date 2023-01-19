@@ -1,17 +1,22 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import svgPath from "../../services/svgPath";
+import Header from "../header/Header";
 
 const Hero: React.FC = () => {
   return (
-    <section>
+    <section className={styles.section__hero}>
+      <Header />
       <div className={styles.container}>
-        <h1>The Sky Is The Limit</h1>
-        <h2>We provide world class financial assistance</h2>
+        <h1 className={styles.title}>The Sky Is The Limit</h1>
+        <h2 className={styles.subtitle}>
+          We provide world class financial assistance
+        </h2>
         <button type="button" className={styles.hero__button}>
           <svg className={styles.hero__svg}>
-            <use href="$"></use>
+            <use href={svgPath.arrow + "#arrow"}></use>
           </svg>
-          <p>Read More</p>
+          <p className={styles.button__text}>Read More</p>
         </button>
       </div>
     </section>

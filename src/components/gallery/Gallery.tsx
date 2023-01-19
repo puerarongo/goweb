@@ -3,7 +3,7 @@ import styles from "./Gallery.module.css";
 
 const Gallery: React.FC = () => {
   return (
-    <section>
+    <section className={styles.gallery}>
       <h3 className={styles.subtitle}>This is what we do</h3>
       <h2 className={styles.title}>Business cases</h2>
       <p className={styles.text}>
