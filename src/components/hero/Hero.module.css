@@ -11,7 +11,7 @@
 
 .container {
   text-align: center;
-  padding: 62px 20px 100px 20px;
+  padding: 52px 20px 100px 20px;
   /* padding: 127px 20px 100px 20px; */
 }
 
@@ -41,6 +41,9 @@
   border: 1px solid #28a745;
   border-radius: 5px;
   cursor: pointer;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__button:hover {
@@ -71,7 +74,7 @@
   }
 
   .container {
-    padding: 314px 120px 378px;
+    padding: 304px 120px 378px;
   }
 }
 
@@ -86,6 +89,6 @@
   }
 
   .container {
-    padding: 192px 280px 270px;
+    padding: 182px 280px 270px;
   }
 }

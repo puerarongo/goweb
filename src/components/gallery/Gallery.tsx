@@ -1,6 +1,18 @@
 import React from "react";
 import styles from "./Gallery.module.css";
-import { galleryArr } from "../../services/imgPath";
+import { galleryArrObj } from "../../services/imgPath";
+
+import LightGallery from "lightgallery/react";
+
+// import styles
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-zoom.css";
+import "lightgallery/css/lg-thumbnail.css";
+// import plugins
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
+
+console.log(galleryArrObj);
 
 const Gallery: React.FC = () => {
   return (
@@ -12,18 +24,30 @@ const Gallery: React.FC = () => {
         Architecto,sapiente!
       </p>
       <ul className={styles.gallery__list}>
-        {galleryArr.length > 0 &&
-          galleryArr.map((elem, index) => {
-            return (
-              <li key={index} className={styles.gallery__item}>
-                <img
-                  className={styles.image}
-                  src={elem}
-                  alt={"gallery" + index}
-                />
-              </li>
-            );
-          })}
+        <LightGallery
+          speed={500}
+          plugins={[lgThumbnail, lgZoom]}
+          elementClassNames={styles.lightbox}
+        >
+          {galleryArrObj.length > 0 &&
+            galleryArrObj.map((elem, index) => {
+              return (
+                <li
+                  key={index}
+                  className={styles.gallery__item}
+                  data-src={elem}
+                >
+                  <a href={elem}>
+                    <img
+                      className={styles.image}
+                      src={elem}
+                      alt={"gallery" + (index + 1)}
+                    />
+                  </a>
+                </li>
+              );
+            })}
+        </LightGallery>
       </ul>
     </section>
   );

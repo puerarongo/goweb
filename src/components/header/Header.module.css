@@ -4,6 +4,17 @@
   background: rgba(0, 0, 0, 0%);
 }
 
+.logo__logo {
+  position: absolute;
+  width: 300px;
+  height: 51px;
+}
+
+.logo__logo:hover {
+  width: 350px;
+  height: 60px;
+}
+
 .header__container {
   display: block;
   margin: 0 auto;
@@ -13,6 +24,7 @@
   display: flex;
   text-align: center;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 
 .logo__book {
@@ -38,6 +50,11 @@
   color: #28a745;
 }
 
+.logo__container:hover .logo__book,
+.logo__container:hover .logo__first,
+.logo__container:hover .logo__second {
+}
+
 .list {
   display: flex;
 }
@@ -51,6 +68,25 @@
   line-height: 1.4;
   color: #ffffff;
   cursor: pointer;
+}
+
+.into__link::after {
+  display: block;
+  content: "";
+  margin-top: 8px;
+  width: inherit;
+  height: 3px;
+  background-color: #28a745;
+  border-radius: 2px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+}
+
+.into__link:hover::after,
+.into__link:active::after {
+  opacity: 1;
 }
 
 @media screen and (min-width: 767px) {

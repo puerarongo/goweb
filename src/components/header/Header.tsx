@@ -7,6 +7,9 @@ const Header: React.FC = () => {
     <div className={styles.header}>
       <div className={styles.header__container}>
         <div className={styles.logo__container}>
+          <svg className={styles.logo__logo}>
+            <use href={svgPath.logo + "#logo"}></use>
+          </svg>
           <svg className={styles.logo__book}>
             <use href={svgPath.book + "#book"}></use>
           </svg>
