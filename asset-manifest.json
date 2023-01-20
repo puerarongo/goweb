@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/goweb/static/css/main.9e32d83b.css",
-    "main.js": "/goweb/static/js/main.940bb2a3.js",
+    "main.css": "/goweb/static/css/main.5aa00943.css",
+    "main.js": "/goweb/static/js/main.fba2fade.js",
     "static/js/787.2d1b4dc6.chunk.js": "/goweb/static/js/787.2d1b4dc6.chunk.js",
     "static/media/hero_big.jpg": "/goweb/static/media/hero_big.da623e53232072a5c0c1.jpg",
     "static/media/hero_mid.jpg": "/goweb/static/media/hero_mid.dd736a085c58acd1cf94.jpg",
@@ -17,8 +17,13 @@
     "static/media/gallery4.jpg": "/goweb/static/media/gallery4.615e3917d44494f3d3df.jpg",
     "static/media/form_mid.jpg": "/goweb/static/media/form_mid.95c73af831d9de71fab2.jpg",
     "static/media/team3.jpg": "/goweb/static/media/team3.440320b1648e1af2ef33.jpg",
+    "static/media/lg.svg?io9a6k": "/goweb/static/media/lg.09cd8e9be7081f216644.svg",
     "static/media/gallery2.jpg": "/goweb/static/media/gallery2.8a24d0a454f65717922e.jpg",
     "static/media/team2.jpg": "/goweb/static/media/team2.8ba5dced71e508697f5b.jpg",
+    "static/media/logo.svg": "/goweb/static/media/logo.7f7393bfe63a0b0be599370d67712202.svg",
+    "static/media/lg.woff?io9a6k": "/goweb/static/media/lg.356a0e9cb064c7a196c6.woff",
+    "static/media/lg.ttf?io9a6k": "/goweb/static/media/lg.747d038541bfc6bb8ea9.ttf",
+    "static/media/lg.woff2?io9a6k": "/goweb/static/media/lg.64b800aa30714fd916dc.woff2",
     "static/media/worning.svg": "/goweb/static/media/worning.7226f620b2c0712e8efc111e3ca66b0a.svg",
     "static/media/twitter.svg": "/goweb/static/media/twitter.2f52081964595dac420f282cb5e5559b.svg",
     "static/media/book.svg": "/goweb/static/media/book.007b4fb0724d9c65722d16f361978ea4.svg",
@@ -27,12 +32,12 @@
     "static/media/linkedIn.svg": "/goweb/static/media/linkedIn.c9e7b19ec7557d13f074239012cdb070.svg",
     "static/media/facebook.svg": "/goweb/static/media/facebook.481bf783f63a129130f37b38ce75c665.svg",
     "static/media/arrow.svg": "/goweb/static/media/arrow.c05abddbec352ed13a0dae60737ad21a.svg",
-    "main.9e32d83b.css.map": "/goweb/static/css/main.9e32d83b.css.map",
-    "main.940bb2a3.js.map": "/goweb/static/js/main.940bb2a3.js.map",
+    "main.5aa00943.css.map": "/goweb/static/css/main.5aa00943.css.map",
+    "main.fba2fade.js.map": "/goweb/static/js/main.fba2fade.js.map",
     "787.2d1b4dc6.chunk.js.map": "/goweb/static/js/787.2d1b4dc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e32d83b.css",
-    "static/js/main.940bb2a3.js"
+    "static/css/main.5aa00943.css",
+    "static/js/main.fba2fade.js"
   ]
 }
