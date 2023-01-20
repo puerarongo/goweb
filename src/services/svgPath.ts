@@ -4,6 +4,7 @@ import facebook from "../img/svg/facebook.svg";
 import twitter from "../img/svg/twitter.svg";
 import youTube from "../img/svg/youTube.svg";
 import linkedIn from "../img/svg/linkedIn.svg";
+import worning from "../img/svg/worning.svg";
 
 const svgPath = {
   arrow,
@@ -12,6 +13,7 @@ const svgPath = {
   twitter,
   youTube,
   linkedIn,
+  worning,
 };
 
 export default svgPath;

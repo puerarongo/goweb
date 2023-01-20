@@ -28,6 +28,10 @@
   display: block;
 }
 
+.gallery__item {
+  flex-direction: column;
+}
+
 .gallery__item:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -49,6 +53,23 @@
 
   .gallery__list {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gallery__item:not(:last-child) {
+    margin: 0;
+  }
+
+  .gallery__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+
+  .gallery__item:not(:nth-child(3n + 3)) {
+    margin-right: 30px;
+  }
+
+  .gallery__item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 20px;
   }
 
   .image {

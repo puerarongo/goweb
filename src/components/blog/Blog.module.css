@@ -1,5 +1,6 @@
 .blog {
   display: block;
+  width: 100%;
 }
 
 .container__blog {
@@ -25,18 +26,39 @@
   border: 1px solid #0284d0;
 }
 
+.image {
+  width: 100%;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/blog/blog_big.jpg");
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
 @media screen and (min-width: 767px) {
   .blog {
     display: flex;
   }
 
   .container__blog {
+    width: 51%;
     padding: 60px 32px;
+  }
+
+  .image {
+    width: 49%;
+    background-image: url("../../img/blog/blog_mid.jpg");
   }
 }
 
 @media screen and (min-width: 1300px) {
   .container__blog {
+    width: 51%;
     padding: 80px 28px 90px 20px;
+  }
+
+  .image {
+    width: 49%;
+    background-image: url("../../img/blog/blog_big.jpg");
   }
 }

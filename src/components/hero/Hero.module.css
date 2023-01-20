@@ -5,13 +5,14 @@
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("../../img/hero/hero_mid.jpg");
+    url("../../img/hero/hero_small.jpg");
   background-size: 100%;
 }
 
 .container {
   text-align: center;
   padding: 62px 20px 100px 20px;
+  /* padding: 127px 20px 100px 20px; */
 }
 
 .title {
@@ -66,7 +67,7 @@
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)
       ),
-      url("../../img/hero/hero_big.jpg");
+      url("../../img/hero/hero_mid.jpg");
   }
 
   .container {
