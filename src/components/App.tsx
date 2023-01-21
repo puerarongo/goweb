@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./header/Header";
 import Hero from "./hero/Hero";
 import Information from "./information/Information";
 import Gallery from "./gallery/Gallery";
@@ -10,6 +11,7 @@ import Footer from "./footer/Footer";
 const App: React.FC = () => {
   return (
     <>
+      <Header />
       <Hero />
       <Information />
       <Gallery />

@@ -4,17 +4,12 @@ import svgPath from "../../services/svgPath";
 
 const Header: React.FC = () => {
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.header__container}>
         <div className={styles.logo__container}>
           <svg className={styles.logo__logo}>
             <use href={svgPath.logo + "#logo"}></use>
           </svg>
-          <svg className={styles.logo__book}>
-            <use href={svgPath.book + "#book"}></use>
-          </svg>
-          <h2 className={styles.logo__first}>Finance</h2>
-          <h2 className={styles.logo__second}>Ledger</h2>
         </div>
         <ul className={styles.list}>
           <li className={styles.item}>
@@ -44,7 +39,7 @@ const Header: React.FC = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </header>
   );
 };
 

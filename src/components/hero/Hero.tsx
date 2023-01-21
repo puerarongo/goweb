@@ -1,12 +1,10 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import svgPath from "../../services/svgPath";
-import Header from "../header/Header";
 
 const Hero: React.FC = () => {
   return (
     <section className={styles.section__hero}>
-      <Header />
       <div className={styles.container}>
         <h1 className={styles.title}>The Sky Is The Limit</h1>
         <h2 className={styles.subtitle}>

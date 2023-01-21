@@ -11,7 +11,7 @@
 
 .container {
   text-align: center;
-  padding: 52px 20px 100px 20px;
+  padding: 160px 20px 100px 20px;
   /* padding: 127px 20px 100px 20px; */
 }
 
@@ -74,7 +74,7 @@
   }
 
   .container {
-    padding: 304px 120px 378px;
+    padding: 378px 120px 378px;
   }
 }
 
@@ -89,6 +89,6 @@
   }
 
   .container {
-    padding: 182px 280px 270px;
+    padding: 272px 280px 270px;
   }
 }

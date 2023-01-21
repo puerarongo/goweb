@@ -1,18 +1,11 @@
 .header {
-  display: flex;
-  padding-top: 22px;
-  background: rgba(0, 0, 0, 0%);
-}
-
-.logo__logo {
   position: absolute;
-  width: 300px;
-  height: 51px;
-}
+  width: 100%;
+  display: flex;
+  padding: 22px 0;
+  background: rgba(0, 0, 0, 0%);
 
-.logo__logo:hover {
-  width: 350px;
-  height: 60px;
+  /*     background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ); */
 }
 
 .header__container {
@@ -23,40 +16,26 @@
 .logo__container {
   display: flex;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
   cursor: pointer;
 }
 
-.logo__book {
-  margin-right: 8px;
-  width: 40px;
-  height: 30px;
+.logo__logo {
+  width: 240px;
+  height: 35px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ? line-height: line-height / font-size */
 
-.logo__first,
-.logo__second {
-  font-size: 28px;
-  line-height: 1.3;
-}
-
-.logo__first {
-  color: #ffffff;
-  margin-right: 8px;
-}
-
-.logo__second {
-  color: #28a745;
-}
-
-.logo__container:hover .logo__book,
-.logo__container:hover .logo__first,
-.logo__container:hover .logo__second {
-}
-
 .list {
   display: flex;
+}
+
+.item {
+  padding-top: 10px;
 }
 
 .item:not(:last-child) {
@@ -91,7 +70,11 @@
 
 @media screen and (min-width: 767px) {
   .header {
-    padding: 28px 32px 0 32px;
+    padding-top: 28px 0 20px;
+  }
+
+  .header__container {
+    padding: 0 32px;
   }
 
   .header__container {
@@ -104,9 +87,16 @@
     margin-bottom: 0;
   }
 
-  .logo__book,
-  .logo__first {
-    margin-right: 10px;
+  .logo__logo {
+    position: absolute;
+    width: 260px;
+    height: 40px;
+  }
+
+  .logo__logo:hover {
+    position: absolute;
+    width: 270px;
+    height: 45px;
   }
 
   .logo__container {
@@ -129,11 +119,11 @@
 
 @media screen and (min-width: 1300px) {
   .header {
-    padding: 32px 29px 0 29px;
+    padding: 32px 0 20px;
   }
 
-  .logo__book {
-    margin-right: 4px;
+  .header__container {
+    padding: 0 29px;
   }
 
   .item:not(:last-child) {
