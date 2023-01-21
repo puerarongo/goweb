@@ -72,12 +72,13 @@
 
 .img__thumb:hover {
   transform: scale(1.1);
+  z-index: 2;
   box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.4);
 }
 
 .img__thumb:hover .list__container {
   cursor: pointer;
-  z-index: 2;
+  z-index: 3;
 }
 
 .svg__list {
