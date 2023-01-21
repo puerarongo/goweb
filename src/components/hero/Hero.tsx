@@ -4,7 +4,7 @@ import svgPath from "../../services/svgPath";
 
 const Hero: React.FC = () => {
   return (
-    <section className={styles.section__hero}>
+    <section className={styles.section__hero} id="home">
       <div className={styles.container}>
         <h1 className={styles.title}>The Sky Is The Limit</h1>
         <h2 className={styles.subtitle}>

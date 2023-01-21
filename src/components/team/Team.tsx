@@ -7,7 +7,7 @@ import svgPath from "../../services/svgPath";
 
 const Team: React.FC = () => {
   return (
-    <section className={styles.team__container}>
+    <section className={styles.team__container} id="contact">
       <h3 className={styles.subtitle}>Who we are</h3>
       <h2 className={styles.title}>Our Professional Team</h2>
       <p className={styles.text}>

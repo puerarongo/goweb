@@ -16,7 +16,7 @@ console.log(galleryArrObj);
 
 const Gallery: React.FC = () => {
   return (
-    <section className={styles.gallery}>
+    <section className={styles.gallery} id="cases">
       <h3 className={styles.subtitle}>This is what we do</h3>
       <h2 className={styles.title}>Business cases</h2>
       <p className={styles.text}>

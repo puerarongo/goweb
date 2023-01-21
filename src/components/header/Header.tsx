@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Header.module.css";
 import svgPath from "../../services/svgPath";
+import { Link } from "react-scroll";
 
 const Header: React.FC = () => {
+  const [scroll, setScroll] = useState<number>(0);
+
+  document.onscroll = () => {
+    let scrollValue = window.scrollY;
+    setScroll(scrollValue);
+  };
+
   return (
-    <header className={styles.header}>
+    <header className={scroll > 70 ? styles.header__fixed : styles.header}>
       <div className={styles.header__container}>
         <div className={styles.logo__container}>
           <svg className={styles.logo__logo}>
@@ -13,29 +21,64 @@ const Header: React.FC = () => {
         </div>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <a className={styles.into__link} href="#Home">
+            <Link
+              className={styles.into__link}
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
               Home
-            </a>
+            </Link>
           </li>
           <li className={styles.item}>
-            <a className={styles.into__link} href="#About">
+            <Link
+              className={styles.into__link}
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
               About
-            </a>
+            </Link>
           </li>
           <li className={styles.item}>
-            <a className={styles.into__link} href="#Cases">
+            <Link
+              className={styles.into__link}
+              to="cases"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
               Cases
-            </a>
+            </Link>
           </li>
           <li className={styles.item}>
-            <a className={styles.into__link} href="#Blog">
+            <Link
+              className={styles.into__link}
+              to="blog"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
               Blog
-            </a>
+            </Link>
           </li>
           <li className={styles.item}>
-            <a className={styles.into__link} href="#Contact">
+            <Link
+              className={styles.into__link}
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

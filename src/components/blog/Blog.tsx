@@ -4,7 +4,7 @@ import styles from "./Blog.module.css";
 
 const Blog: React.FC = () => {
   return (
-    <section className={styles.blog}>
+    <section className={styles.blog} id="blog">
       <div className={styles.container__blog}>
         <p className={stylesInfo.subtitle}>April 16 2020</p>
         <h2 className={stylesInfo.title}>Blog Post One</h2>
