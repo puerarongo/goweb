@@ -56,24 +56,13 @@
   }
 
   .lightbox {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
   }
 
   .gallery__item:not(:last-child) {
     margin: 0;
-  }
-
-  .gallery__item {
-    flex-basis: calc((100% - 60px) / 3);
-  }
-
-  .gallery__item:not(:nth-child(3n + 3)) {
-    margin-right: 30px;
-  }
-
-  .gallery__item:not(:nth-last-child(-n + 2)) {
-    margin-bottom: 20px;
   }
 
   .image {
@@ -84,5 +73,9 @@
 @media screen and (min-width: 1300px) {
   .image {
     width: 420px;
+  }
+
+  .lightbox {
+    gap: 24px;
   }
 }
