@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goweb/static/css/main.5a3d12b7.css",
+    "main.css": "/goweb/static/css/main.e9bb2d37.css",
     "main.js": "/goweb/static/js/main.011dc590.js",
     "static/js/787.2d1b4dc6.chunk.js": "/goweb/static/js/787.2d1b4dc6.chunk.js",
     "static/media/hero_big.jpg": "/goweb/static/media/hero_big.da623e53232072a5c0c1.jpg",
@@ -32,12 +32,12 @@
     "static/media/linkedIn.svg": "/goweb/static/media/linkedIn.c9e7b19ec7557d13f074239012cdb070.svg",
     "static/media/facebook.svg": "/goweb/static/media/facebook.481bf783f63a129130f37b38ce75c665.svg",
     "static/media/arrow.svg": "/goweb/static/media/arrow.c05abddbec352ed13a0dae60737ad21a.svg",
-    "main.5a3d12b7.css.map": "/goweb/static/css/main.5a3d12b7.css.map",
+    "main.e9bb2d37.css.map": "/goweb/static/css/main.e9bb2d37.css.map",
     "main.011dc590.js.map": "/goweb/static/js/main.011dc590.js.map",
     "787.2d1b4dc6.chunk.js.map": "/goweb/static/js/787.2d1b4dc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a3d12b7.css",
+    "static/css/main.e9bb2d37.css",
     "static/js/main.011dc590.js"
   ]
 }
