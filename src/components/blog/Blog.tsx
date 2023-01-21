@@ -1,5 +1,5 @@
 import React from "react";
-import stylesInfo from "../information/Information.module.css";
+import stylesInfo from "../about/About.module.css";
 import styles from "./Blog.module.css";
 
 const Blog: React.FC = () => {

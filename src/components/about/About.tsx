@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./Information.module.css";
+import styles from "./About.module.css";
 
-const Information: React.FC = () => {
+const About: React.FC = () => {
   return (
-    <section className={styles.information__section} id="about">
+    <section className={styles.about__section} id="about">
       <div className={styles.image}></div>
-      <div className={styles.container__information}>
+      <div className={styles.container__about}>
         <h3 className={styles.subtitle}>What you are looking for</h3>
         <h2 className={styles.title}>We provide bespoke solutions</h2>
         <p className={styles.text}>
@@ -22,4 +22,4 @@ const Information: React.FC = () => {
   );
 };
 
-export default Information;
+export default About;

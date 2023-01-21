@@ -28,16 +28,13 @@
   display: block;
 }
 
-.gallery__item {
-  flex-direction: column;
-}
-
 .gallery__item:not(:last-child) {
   margin-bottom: 8px;
 }
 
 .image {
   width: 280px;
+  height: 100%;
 }
 
 .lightbox {

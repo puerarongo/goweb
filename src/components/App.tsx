@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./header/Header";
 import Hero from "./hero/Hero";
-import Information from "./information/Information";
+import About from "./about/About";
 import Gallery from "./gallery/Gallery";
 import Blog from "./blog/Blog";
 import Team from "./team/Team";
@@ -13,7 +13,7 @@ const App: React.FC = () => {
     <>
       <Header />
       <Hero />
-      <Information />
+      <About />
       <Gallery />
       <Blog />
       <Team />

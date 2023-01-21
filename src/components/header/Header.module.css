@@ -70,7 +70,7 @@
   content: "";
   margin-top: 8px;
   width: inherit;
-  height: 3px;
+  height: 2px;
   background-color: #28a745;
   border-radius: 2px;
 
@@ -104,15 +104,12 @@
   }
 
   .logo__logo {
-    position: absolute;
     width: 260px;
     height: 40px;
   }
 
   .logo__logo:hover {
-    position: absolute;
-    width: 270px;
-    height: 45px;
+    transform: scale(1.1);
   }
 
   .logo__container {

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Team.module.css";
-import { teamImages } from "../../services/imgPath";
+import imageTeamArr from "../../services/imageTeamArr";
 // svg
 import stylesA from "../footer/Footer.module.css";
 import svgPath from "../../services/svgPath";
@@ -15,116 +15,60 @@ const Team: React.FC = () => {
         sapiente!
       </p>
       <ul className={styles.team__list}>
-        <li className={styles.team__item}>
-          <div className={styles.img__thumb}>
-            <img
-              className={styles.image}
-              src={teamImages.team1}
-              alt="John Doe"
-            />
+        {imageTeamArr.length > 0 &&
+          imageTeamArr.map((elem, index) => {
+            return (
+              <li className={styles.team__item} key={index}>
+                <div className={styles.img__thumb}>
+                  <picture>
+                    <source
+                      media="(min-width: 320px)"
+                      srcSet={elem.webp + " 1x, " + elem.webp2 + " 2x"}
+                      type="image/webp"
+                    ></source>
+                    <source
+                      media="(min-width: 320px)"
+                      srcSet={elem.jpg + " 1x, " + elem.jpg2 + " 2x"}
+                    ></source>
 
-            <div className={styles.list__container}>
-              <ul className={styles.svg__list}>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__facebook}>
-                    <use href={svgPath.facebook + "#facebook"}></use>
-                  </svg>
-                </li>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__twitter}>
-                    <use href={svgPath.twitter + "#twitter"}></use>
-                  </svg>
-                </li>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__youTube}>
-                    <use href={svgPath.youTube + "#youTube"}></use>
-                  </svg>
-                </li>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__linkedIn}>
-                    <use href={svgPath.linkedIn + "#linkedIn"}></use>
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </div>
+                    <img
+                      className={styles.image}
+                      src={elem.jpg}
+                      alt={elem.name}
+                    />
+                  </picture>
 
-          <h3 className={styles.name}>John Doe</h3>
-          <p className={styles.profession}>President</p>
-        </li>
+                  <div className={styles.list__container}>
+                    <ul className={styles.svg__list}>
+                      <li className={stylesA.svg__item}>
+                        <svg className={stylesA.svg__facebook}>
+                          <use href={svgPath.facebook + "#facebook"}></use>
+                        </svg>
+                      </li>
+                      <li className={stylesA.svg__item}>
+                        <svg className={stylesA.svg__twitter}>
+                          <use href={svgPath.twitter + "#twitter"}></use>
+                        </svg>
+                      </li>
+                      <li className={stylesA.svg__item}>
+                        <svg className={stylesA.svg__youTube}>
+                          <use href={svgPath.youTube + "#youTube"}></use>
+                        </svg>
+                      </li>
+                      <li className={stylesA.svg__item}>
+                        <svg className={stylesA.svg__linkedIn}>
+                          <use href={svgPath.linkedIn + "#linkedIn"}></use>
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
 
-        <li className={styles.team__item}>
-          <div className={styles.img__thumb}>
-            <img
-              className={styles.image}
-              src={teamImages.team2}
-              alt="Jane Doe"
-            />
-
-            <div className={styles.list__container}>
-              <ul className={styles.svg__list}>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__facebook}>
-                    <use href={svgPath.facebook + "#facebook"}></use>
-                  </svg>
-                </li>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__twitter}>
-                    <use href={svgPath.twitter + "#twitter"}></use>
-                  </svg>
-                </li>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__youTube}>
-                    <use href={svgPath.youTube + "#youTube"}></use>
-                  </svg>
-                </li>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__linkedIn}>
-                    <use href={svgPath.linkedIn + "#linkedIn"}></use>
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <h3 className={styles.name}>Jane Doe</h3>
-          <p className={styles.profession}>Vice President</p>
-        </li>
-        <li className={styles.team__item}>
-          <div className={styles.img__thumb}>
-            <img
-              className={styles.image}
-              src={teamImages.team3}
-              alt="Steve Smith"
-            />
-
-            <div className={styles.list__container}>
-              <ul className={styles.svg__list}>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__facebook}>
-                    <use href={svgPath.facebook + "#facebook"}></use>
-                  </svg>
-                </li>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__twitter}>
-                    <use href={svgPath.twitter + "#twitter"}></use>
-                  </svg>
-                </li>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__youTube}>
-                    <use href={svgPath.youTube + "#youTube"}></use>
-                  </svg>
-                </li>
-                <li className={stylesA.svg__item}>
-                  <svg className={stylesA.svg__linkedIn}>
-                    <use href={svgPath.linkedIn + "#linkedIn"}></use>
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <h3 className={styles.name}>Steve Smith</h3>
-          <p className={styles.profession}>Marketing Head</p>
-        </li>
+                <h3 className={styles.name}>{elem.name}</h3>
+                <p className={styles.profession}>{elem.profession}</p>
+              </li>
+            );
+          })}
       </ul>
     </section>
   );
