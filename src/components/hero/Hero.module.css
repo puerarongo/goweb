@@ -63,7 +63,7 @@
   line-height: 1.4;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .section__hero {
     background-image: linear-gradient(
         0deg,

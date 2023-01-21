@@ -101,7 +101,7 @@
   color: #eb5757;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .form {
     width: 51%;
     padding: 32px 0;

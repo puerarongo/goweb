@@ -16,6 +16,8 @@
     "lightgallery": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-media": "^1.10.0",
+    "react-remove-scroll": "^2.5.5",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "typescript": "^4.9.4",
