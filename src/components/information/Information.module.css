@@ -85,7 +85,7 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1360px) {
   .image {
     width: 49%;
     background-image: url("../../img/info/info_big.jpg");
