@@ -56,11 +56,26 @@
 .svg__left {
   width: 30px;
   height: 30px;
+  opacity: 0;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg__cross {
   width: 20px;
   height: 20px;
+  opacity: 0.6;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button__right:hover .svg__right,
+.button__left:hover .svg__left,
+.button__right:active .svg__right,
+.button__left:active .svg__left,
+.button__cross:hover .svg__cross,
+.button__cross:active .svg__cross {
+  opacity: 1;
 }
 
 @media screen and (min-width: 480px) {

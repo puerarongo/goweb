@@ -1,13 +1,11 @@
 import React from "react";
 import styles from "./Team.module.css";
 import imageTeamArr from "../../services/imageTeamArr";
-// svg
-import stylesA from "../footer/Footer.module.css";
 import svgPath from "../../services/svgPath";
 
 const Team: React.FC = () => {
   return (
-    <section className={styles.team__container} id="contact">
+    <section className={styles.team__container}>
       <h3 className={styles.subtitle}>Who we are</h3>
       <h2 className={styles.title}>Our Professional Team</h2>
       <p className={styles.text}>
@@ -40,23 +38,23 @@ const Team: React.FC = () => {
 
                   <div className={styles.list__container}>
                     <ul className={styles.svg__list}>
-                      <li className={stylesA.svg__item}>
-                        <svg className={stylesA.svg__facebook}>
+                      <li className={styles.svg__item}>
+                        <svg className={styles.svg__facebook}>
                           <use href={svgPath.facebook + "#facebook"}></use>
                         </svg>
                       </li>
-                      <li className={stylesA.svg__item}>
-                        <svg className={stylesA.svg__twitter}>
+                      <li className={styles.svg__item}>
+                        <svg className={styles.svg__twitter}>
                           <use href={svgPath.twitter + "#twitter"}></use>
                         </svg>
                       </li>
-                      <li className={stylesA.svg__item}>
-                        <svg className={stylesA.svg__youTube}>
+                      <li className={styles.svg__item}>
+                        <svg className={styles.svg__youTube}>
                           <use href={svgPath.youTube + "#youTube"}></use>
                         </svg>
                       </li>
-                      <li className={stylesA.svg__item}>
-                        <svg className={stylesA.svg__linkedIn}>
+                      <li className={styles.svg__item}>
+                        <svg className={styles.svg__linkedIn}>
                           <use href={svgPath.linkedIn + "#linkedIn"}></use>
                         </svg>
                       </li>

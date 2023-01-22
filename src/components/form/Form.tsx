@@ -9,7 +9,7 @@ const Form: React.FC = () => {
   const [email, setEmail] = useState<string>("");
 
   return (
-    <section className={styles.section__form}>
+    <section className={styles.section__form} id="contact">
       <div className={styles.image}></div>
       <Formik
         initialValues={{
