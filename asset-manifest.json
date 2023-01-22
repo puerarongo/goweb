@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goweb/static/css/main.e4008698.css",
+    "main.css": "/goweb/static/css/main.ecd86250.css",
     "main.js": "/goweb/static/js/main.1b882c4f.js",
     "static/js/787.2d1b4dc6.chunk.js": "/goweb/static/js/787.2d1b4dc6.chunk.js",
     "static/media/hero_big.jpg": "/goweb/static/media/hero_big.da623e53232072a5c0c1.jpg",
@@ -59,12 +59,12 @@
     "static/media/arrow.svg": "/goweb/static/media/arrow.c05abddbec352ed13a0dae60737ad21a.svg",
     "static/media/left.svg": "/goweb/static/media/left.e97f810caf2d9cbbdb91de731124b149.svg",
     "static/media/right.svg": "/goweb/static/media/right.78254a66f0e6e6383931c579c84c6954.svg",
-    "main.e4008698.css.map": "/goweb/static/css/main.e4008698.css.map",
+    "main.ecd86250.css.map": "/goweb/static/css/main.ecd86250.css.map",
     "main.1b882c4f.js.map": "/goweb/static/js/main.1b882c4f.js.map",
     "787.2d1b4dc6.chunk.js.map": "/goweb/static/js/787.2d1b4dc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4008698.css",
+    "static/css/main.ecd86250.css",
     "static/js/main.1b882c4f.js"
   ]
 }
