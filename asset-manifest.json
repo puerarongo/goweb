@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/goweb/static/css/main.fc4eeca6.css",
-    "main.js": "/goweb/static/js/main.3626cc49.js",
+    "main.css": "/goweb/static/css/main.fad8788b.css",
+    "main.js": "/goweb/static/js/main.bfb92011.js",
     "static/js/787.2d1b4dc6.chunk.js": "/goweb/static/js/787.2d1b4dc6.chunk.js",
     "static/media/hero_big.jpg": "/goweb/static/media/hero_big.da623e53232072a5c0c1.jpg",
     "static/media/cases6@2x.jpg": "/goweb/static/media/cases6@2x.0fd629ab60bf5ec64c34.jpg",
@@ -59,12 +59,12 @@
     "static/media/arrow.svg": "/goweb/static/media/arrow.c05abddbec352ed13a0dae60737ad21a.svg",
     "static/media/left.svg": "/goweb/static/media/left.e97f810caf2d9cbbdb91de731124b149.svg",
     "static/media/right.svg": "/goweb/static/media/right.78254a66f0e6e6383931c579c84c6954.svg",
-    "main.fc4eeca6.css.map": "/goweb/static/css/main.fc4eeca6.css.map",
-    "main.3626cc49.js.map": "/goweb/static/js/main.3626cc49.js.map",
+    "main.fad8788b.css.map": "/goweb/static/css/main.fad8788b.css.map",
+    "main.bfb92011.js.map": "/goweb/static/js/main.bfb92011.js.map",
     "787.2d1b4dc6.chunk.js.map": "/goweb/static/js/787.2d1b4dc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc4eeca6.css",
-    "static/js/main.3626cc49.js"
+    "static/css/main.fad8788b.css",
+    "static/js/main.bfb92011.js"
   ]
 }
