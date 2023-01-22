@@ -11,16 +11,17 @@
 
 .modal {
   position: absolute;
-  display: flex;
-  width: 900px;
-  height: 550px;
+  width: 300px;
+  height: 150px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .container {
-  display: block;
+  display: flex;
+  width: 300px;
+  height: 150px;
 }
 
 .img {
@@ -39,11 +40,60 @@
   cursor: pointer;
 }
 
+.button__cross {
+  display: flex;
+  margin: 20px 35px 0 auto;
+}
+
 .svg__right,
 .svg__left,
 .svg__cross {
   display: block;
+  fill: #fff;
+}
+
+.svg__right,
+.svg__left {
   width: 30px;
   height: 30px;
-  fill: #fff;
+}
+
+.svg__cross {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .modal,
+  .container {
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal,
+  .container {
+    width: 600px;
+    height: 350px;
+  }
+
+  .svg__right,
+  .svg__left {
+    width: 40px;
+    height: 40px;
+  }
+
+  .svg__cross {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .modal,
+  .container {
+    width: 900px;
+    height: 550px;
+  }
 }

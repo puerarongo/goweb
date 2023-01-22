@@ -20,9 +20,12 @@ const Lightbox: React.FC<ILightbox> = ({
   clickLeft,
   clickRight,
 }) => {
-  const handleClick = (e: any) => {
-    if (e.currentTarget === e.target) {
-      console.log("!");
+  const handleClick = (e: React.SyntheticEvent) => {
+    let target = e.target as HTMLInputElement;
+    if (
+      e.currentTarget === e.target ||
+      target.classList.value.includes("cross")
+    ) {
       setTumbler(false);
     }
   };
@@ -31,34 +34,36 @@ const Lightbox: React.FC<ILightbox> = ({
     <RemoveScroll>
       <div className={styles.overlay} onClick={handleClick}>
         <div className={styles.modal}>
-          <button
-            className={styles.button__left}
-            type="button"
-            onClick={() => clickLeft()}
-          >
-            <svg className={styles.svg__left}>
-              <use href={svgPath.left + "#left"}></use>
-            </svg>
-          </button>
           <div className={styles.container}>
-            <img className={styles.img} src={img} alt="" />
             <button
-              className={styles.button__cross}
+              className={styles.button__left}
               type="button"
-              onClick={handleClick}
+              onClick={() => clickLeft()}
             >
-              <svg className={styles.svg__cross}>
-                <use href={svgPath.cross + "#cross"}></use>
+              <svg className={styles.svg__left}>
+                <use href={svgPath.left + "#left"}></use>
+              </svg>
+            </button>
+            <div className={styles.container}>
+              <img className={styles.img} src={img} alt="" />
+            </div>
+            <button
+              className={styles.button__right}
+              type="button"
+              onClick={() => clickRight()}
+            >
+              <svg className={styles.svg__right}>
+                <use href={svgPath.right + "#right"}></use>
               </svg>
             </button>
           </div>
           <button
-            className={styles.button__right}
+            className={styles.button__cross}
             type="button"
-            onClick={() => clickRight()}
+            onClick={handleClick}
           >
-            <svg className={styles.svg__right}>
-              <use href={svgPath.right + "#right"}></use>
+            <svg className={styles.svg__cross}>
+              <use href={svgPath.cross + "#cross"} className="cross"></use>
             </svg>
           </button>
         </div>
