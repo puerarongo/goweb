@@ -30,7 +30,7 @@ const Modal: React.FC<IModal> = ({ setTumbler, name, email }) => {
             type="button"
             onClick={handleClick}
           >
-            OK
+            Okay
           </button>
         </div>
       </div>
